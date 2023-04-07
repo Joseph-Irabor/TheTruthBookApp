@@ -1,0 +1,64 @@
+/* =====CTRL+ALT+F======== to format css codes  */
+* {
+    margin: 0;
+    padding: 0;
+       
+}
+
+/* MY PERSONAL CSS VARIABLE */
+
+:root{
+    /* Colors*/
+    --color-light-text:#4F4C4C;
+    --color-primary:hsl(0, 0%, 100%);
+    --color-secondary:hsl(0, 0%, 88%);
+    --color-cta: hsl(230, 100%, 21%);
+
+  
+
+    /* Fonts */
+    --f-size-h:40px;
+    --f-size-s-h:1.5rem;
+    --f-size-s-h-2:0.83rem;
+    --f-w-heavy:900;
+    --f-family-h:'Oswald', sans-serif;
+    --f-family-s-h: font-family: 'Roboto', sans-serif;
+    --f-family-body:font-family: 'Open Sans',sans-serif;
+    
+    
+    /* Spacing */
+    --space-x-s:5px;
+    --space-x-m:15px;
+    --space-x:10px;
+    --space-xx:20px;
+    --space-xxx:30px;
+    --space-lg:60px;
+    
+    /* Sizing */
+    --fit-width:fit-content;
+    
+    /* Boxing */
+    --brd-container:solid red;
+    --brd-child:solid green;
+    --brd-g-child:solid blue;
+
+    --brd-rad:6px;
+    --bx-shw:0px 0px 10px grey
+}
+.btn-nxt{
+    width: 50px;
+    height: 50px;
+    padding:10px;
+    border-radius: 50%;
+    background-color:var(--color-cta) ;
+    color:white;
+
+}
+
+
+/* ======= FONT FAMILY FOR THIS WEBSITE... HEADINGS, SUB HEASDINGS AND BODY TEXT======= */
+
+/* =====CTRL+ALT+F======== to format css codes  */
+
+/* ==== NOT NEEDED==== REMOVE CODES FROM HERE UPWARDS WHEN DONE CODING */
+
