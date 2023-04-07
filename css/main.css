@@ -1,28 +1,29 @@
 @import url('./costom-properties.css');
 
-body{
-    height: 100vh;
-    border: solid green;
-    
-}
+
 .splash-container, .intro-page-1{
     display: grid;
     place-items: center;
     
 }
 .splash-container{
-    height: inherit;
+    height: 100vh;
+    /* border: solid red; */
+}
+
+.splash-motto{
+    display: grid;
+    place-items: center;
+    color: var(--color-light-text);
+    font-size: 18px;
 }
 .splash-logo{
     width: 400px;
 }
-.splash-motto{
-
-    color: var(--color-light-text);
-    font-size: 18px;
-}
 .btn-splash{
     width:fit-content;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 .intro-page-1{

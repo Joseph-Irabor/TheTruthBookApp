@@ -12,7 +12,7 @@
     --color-light-text:#4F4C4C;
     --color-primary:hsl(0, 0%, 100%);
     --color-secondary:hsl(0, 0%, 88%);
-    --color-cta: hsl(230, 100%, 21%);
+    --color-cta: #00126b;
 
   
 
@@ -45,13 +45,17 @@
     --brd-rad:6px;
     --bx-shw:0px 0px 10px grey
 }
-.btn-nxt{
-    width: 50px;
-    height: 50px;
+.btn-custom{
+   
     padding:10px;
+    border:none;
     border-radius: 50%;
     background-color:var(--color-cta) ;
     color:white;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #001372, #001060);
+    box-shadow:  5px 5px 10px #000e55,
+             -5px -5px 10px #001681;
 
 }
 
