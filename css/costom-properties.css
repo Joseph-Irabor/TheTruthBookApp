@@ -11,7 +11,7 @@
     /* Colors*/
     --color-light-text:#4F4C4C;
     --color-primary:hsl(0, 0%, 100%);
-    --color-secondary:hsl(0, 0%, 88%);
+    --color-secondary:#e0e0e0;
     --color-cta: #00126b;
 
   
@@ -51,12 +51,17 @@
     border:none;
     border-radius: 50%;
     background-color:var(--color-cta) ;
-    color:white;
-    border-radius: 50px;
-    background: linear-gradient(145deg, #001372, #001060);
-    box-shadow:  5px 5px 10px #000e55,
-             -5px -5px 10px #001681;
+    color:var(--color-light-text);
+    border-radius: 43px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  10px 10px 20px #5a5a5a,
+             -10px -10px 20px #ffffff;
 
+}
+.btn-custom:hover{
+    color: var(--color-cta);
+    box-shadow:  5px 5px 17px #878787,
+             -5px -5px 17px #ffffff;
 }
 
 
