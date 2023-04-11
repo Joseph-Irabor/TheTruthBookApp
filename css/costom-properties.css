@@ -49,10 +49,10 @@
    
     padding:10px;
     border:none;
-    border-radius: 50%;
+    width: fit-content;
+    border-radius: 10%;
     background-color:var(--color-cta) ;
     color:var(--color-light-text);
-    border-radius: 43px;
     background: linear-gradient(145deg, #cacaca, #f0f0f0);
     box-shadow:  10px 10px 20px #5a5a5a,
              -10px -10px 20px #ffffff;
@@ -63,11 +63,20 @@
     box-shadow:  5px 5px 17px #878787,
              -5px -5px 17px #ffffff;
 }
+a{
+
+}
+.cards{
+    border: none;
+    border-radius: 10px;
+    box-shadow:  2px 2px 10px #5a5a5a89
+}
 
 
 /* ======= FONT FAMILY FOR THIS WEBSITE... HEADINGS, SUB HEASDINGS AND BODY TEXT======= */
 
 /* =====CTRL+ALT+F======== to format css codes  */
 
+/* =====CTRL+SHIFT+I and CTRL+K+CTRL+F======== to format the whole HTML codes and selected html code respectively */
 /* ==== NOT NEEDED==== REMOVE CODES FROM HERE UPWARDS WHEN DONE CODING */
 
