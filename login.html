@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Truth in Reality - Login/Register</title>
+	<link rel="stylesheet" href="/css/login-register.css">
+</head>
+
+	<script>
+		function openForm(evt, formName) {
+			var i, form, tablinks;
+			form = document.getElementsByClassName("form");
+			for (i = 0; i < form.length; i++) {
+				form[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(formName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+	</script>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+	<title>Truth in Reality - Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Truth in Reality</h1>
+		<form method="post" action="login.php">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<div class="buttons">
+				<input type="submit" value="Login">
+				<input type="button" value="Cancel" onclick="window.location.href='index.php';">
+			</div>
+		</form>
+		<div class="forgot-password">
+			<a href="forgot_password.php">Forgot password?</a>
+		</div>
+	</div>
+</body>
+</html>
