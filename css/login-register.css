@@ -1,67 +1,20 @@
-body {
-	background-color: #f2f2f2;
-	font-family: Arial, sans-serif;
+
+/* Slide styles */
+.slide {
+  /* display: none; */
+  text-align: center;
+  padding: 50px;
 }
 
-.container {
-	background-color: #fff;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 0 0 10px #ccc;
-	margin: 50px auto;
-	padding: 20px;
-	width: 300px;
-}
-
+/* Header styles */
 h1 {
-	font-size: 24px;
-	margin-bottom: 20px;
-	text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-input[type="text"],
-input[type="password"] {
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	font-size: 16px;
-	margin-bottom: 10px;
-	padding: 10px;
-	width: 100%;
-}
-
-.buttons {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 20px;
-}
-
-input[type="submit"],
-input[type="button"] {
-	background-color: #4CAF50;
-	border: none;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	padding: 10px;
-	width: 45%;
-}
-
-input[type="submit"]:hover,
-input[type="button"]:hover {
-	background-color: #3E8E41;
-}
-
-.forgot-password {
-	margin-top: 10px;
-	text-align: center;
-}
-
-a {
-	color: #337ab7;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
+/* Body text styles */
+p {
+  font-size: 20px;
+  line-height: 1.5;
 }

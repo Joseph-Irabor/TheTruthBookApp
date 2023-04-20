@@ -1,8 +1,26 @@
  /* Slide styles */
+ body{
+	height: 100vh;
+	display: grid;
+	place-content: center;
+ }
+
  .slide {
 	display: none;
 	text-align: center;
 	padding: 50px;
+	height: 100px;
+  }
+  .slide-btn{
+	text-align: center;
+	
+	
+  }
+   #prev, #next{
+	margin-left: 20px;
+  }
+  #prev, #next:hover{
+	cursor: pointer;
   }
 
   /* Header styles */

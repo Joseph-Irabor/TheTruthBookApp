@@ -1,4 +1,4 @@
-@import url('./costom-properties.css');
+@import url('/css/costom-properties.css');
 
 body{
     background: var(--color-secondary);
