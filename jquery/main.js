@@ -1,18 +1,14 @@
 $(document).ready(function () {
- $('#intro-page').hide();
+ $('#intro-page, #slide-2, #slide-3').hide();
 
  $('#btn-splash').click(function (e) { 
   e.preventDefault();
   $('#splash-screen').fadeOut(800);
-  window.location.replace("../intro-page.html");
+  window.location.replace("../login.html");
 
 
-  
+
  });
-  
-  
-  
-  
   
   
   

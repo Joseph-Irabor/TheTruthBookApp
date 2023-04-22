@@ -1,20 +1,18 @@
+@import url('costom-properties.css');
 
-/* Slide styles */
-.slide {
-  /* display: none; */
-  text-align: center;
-  padding: 50px;
+.forms h2{
+    text-align: center;
 }
 
-/* Header styles */
-h1 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.register-link a{
+    color: red;
+    font-size: 14px;
 }
-
-/* Body text styles */
-p {
-  font-size: 20px;
-  line-height: 1.5;
+.forgot-password-link a{
+    font-size: 14px;
+    float: right;
+}
+.btn-container{
+    margin-top: 20px;
+    text-align: center;
 }

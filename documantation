@@ -1,0 +1,27 @@
+   <!-- Slides -->
+    <div class="slide-container">
+       
+      <div class="slide" id="slide-1">
+        <h1>READ FOR FREE</h1>
+        <p>Contents here can be read for free without restrictions.</p>
+      </div>
+
+      <div class="slide"id="slide-2">
+        <h1>SHARE YOUR THOUGHTS</h1>
+        <p>Make notable contributions to contents.</p>
+      </div>
+       
+      <div class="slide" id="slide-3">
+        <h1>USE ANYWHERE</h1>
+        <p>No plagiarism. Use content from this e-book freely; blogs, websites and post on social media platforms.</p>
+       
+      </div>
+     
+    </div>
+   
+    <div class="slide-btn">
+      <!-- Previous and Next buttons -->
+     <!-- <button class="btn-custom" id="prv">Previous</button> -->
+     <button class="btn-custom "id="nxt">Next</button>
+
+    </div>

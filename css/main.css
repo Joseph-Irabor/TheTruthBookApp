@@ -30,25 +30,4 @@ body{
    margin-top: 20px;
 }
 
-/* INTRO PAGE */
-
-
-.text-container-intro{
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    gap: -calc(-20px);
-    
-}
-.intro-content{
-    text-align: center;
-    
-    width:70%;
-    padding: 10px;
-    
-}
-.text-container-intro p{
-    text-align: center;
-    /* width: 50%; */
-}
 
