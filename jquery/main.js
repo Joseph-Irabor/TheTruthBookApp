@@ -6,8 +6,12 @@ $(document).ready(function () {
   $('#splash-screen').fadeOut(800);
   window.location.replace("../login.html");
 
+ });
 
-
+ $('#login-btn').click(function (e) { 
+  e.preventDefault();
+  
+  window.location.replace("../truth-app.html");
  });
   
   

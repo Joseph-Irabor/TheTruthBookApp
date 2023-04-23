@@ -4,6 +4,9 @@
     text-align: center;
 }
 
+.registration-form{
+    display: none;
+}
 .register-link a{
     color: red;
     font-size: 14px;
