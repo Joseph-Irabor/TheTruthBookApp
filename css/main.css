@@ -3,31 +3,37 @@
 body{
     background: var(--color-secondary);
     
-}
-
-.splash-container, .intro-page-1{
-    display: grid;
-    place-items: center;
     
 }
+
 .splash-container{
-   display: grid;
-    place-items: center;
-    height: 100vh;
-    
-}
-
-.splash-motto{
     display: grid;
-    place-items: center;
-    color: var(--color-light-text);
-    font-size: 18px;
-}
-.splash-logo{
-    width: 400px;
-}
-.btn-splash{
-   margin-top: 20px;
-}
+     place-items: center;
+     height: 100vh;
+     
+ }
+ 
+    .splash-container, .intro-page-1{
+        /* display: grid;
+        place-items: center; */
+        border: solid red;
+        
+    }
+    
+    .splash-motto{
+        display: grid;
+        place-items: center;
+        color: var(--color-light-text);
+        font-size: 18px;
+    }
+    .splash-logo{
+        width: 400px;
+    }
+    .btn-splash{
+       margin-top: 20px;
+    }
+    
+
+
 
 
