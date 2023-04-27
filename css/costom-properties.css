@@ -6,7 +6,7 @@
 }
 
 .center-container{
-    height: 90vh;
+    height: 100vh;
     display: grid;
     place-items: center;
 }
@@ -14,10 +14,10 @@
 
 :root{
     /* Colors*/
-    --color-light-text:#4F4C4C;
+    --color-light-text:hsl(0, 2%, 30%);
     --color-primary:hsl(0, 0%, 100%);
-    --color-secondary:#e0e0e0;
-    --color-cta: #00126b;
+    --color-secondary:hsl(0, 0%, 88%);
+    --color-cta: hsl(230, 100%, 21%);
 
   
 
@@ -68,14 +68,32 @@
     box-shadow:  5px 5px 17px #878787,
              -5px -5px 17px #ffffff;
 }
-a{
+
+.cards{
+    padding: 10px;
+    border-radius: 19px;
+    background: #e0e0e0;
+    box-shadow:  5px -5px 15px #bababa,
+             -5px 5px 15px #ffffff;
 
 }
-.cards{
-    border: none;
-    border-radius: 10px;
-    box-shadow:  2px 2px 10px #5a5a5a89
+.card-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #384F7D;
 }
+
+P{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.2px;color: #737373;
+}
+
 
 
 /* ======= FONT FAMILY FOR THIS WEBSITE... HEADINGS, SUB HEASDINGS AND BODY TEXT======= */

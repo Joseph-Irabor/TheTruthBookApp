@@ -1,0 +1,113 @@
+
+
+/* Mobile Phones */
+.main-container{
+    
+    
+    
+}
+.main-header-container{
+    width: 100%;
+    margin: auto;
+    box-shadow: 3px 3px 10px hsl(0, 0%, 50%);
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border-radius: 0px 0px 40px 40px;
+    color: var(--color-primary);
+    background-color: hsl(230, 100%, 21%);
+}
+
+.motto{
+  display: grid;
+  place-items: center;
+}
+
+/* body content */
+.body-container{
+  margin: auto;
+  width: 90%;
+  
+}
+/* search bar  */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+ 
+  
+}
+
+.search-form{
+  width: 100%;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 3px 3px 30px rgba(4, 56, 107, 0.333);
+  overflow: hidden;
+  
+  
+}
+
+.search-box input[type=text] {
+  padding: 10px 3px;
+  border: none;
+  font-size: 17px;
+  background: transparent;
+  width: 100%; 
+  outline: none;
+}
+
+
+.search-box button {
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+.search-box .fa-search:hover {
+  color: hsl(0, 0%, 53%);
+}
+.fa-search {
+  color: hsl(0, 0%, 66%);
+}
+
+/* Threads */
+.threads{
+  
+  display: grid;
+  gap: 30px;
+ 
+}
+.topic-thread{
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.1px;
+
+color: #384F7D;
+}
+
+
+
+/* Tablet devices  */
+@media(min-width:768px){
+    
+}
+
+/* PC devices  */
+@media(min-width:992px){
+.main-container{
+    width: 50%;
+    margin: auto;
+}
+}
+
+
