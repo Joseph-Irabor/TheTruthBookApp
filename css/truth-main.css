@@ -1,21 +1,17 @@
 
 
 /* Mobile Phones */
-.main-container{
-    
-    
-    
+body{
+  display: grid;
+  overflow: hidden;
 }
-.main-header-container{
-    width: 100%;
-    margin: auto;
-    box-shadow: 3px 3px 10px hsl(0, 0%, 50%);
-    display: grid;
-    place-items: center;
-    padding: 10px;
-    border-radius: 0px 0px 40px 40px;
-    color: var(--color-primary);
-    background-color: hsl(230, 100%, 21%);
+.header{
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.header .header-img{
+  width: 200px;
 }
 
 .motto{
@@ -27,6 +23,7 @@
 .body-container{
   margin: auto;
   width: 90%;
+  
   
 }
 /* search bar  */
@@ -76,14 +73,8 @@
 }
 
 /* Threads */
-.threads{
-  
-  display: grid;
-  gap: 30px;
- 
-}
 .topic-thread{
-  margin-top: 50px;
+  margin-top: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -94,6 +85,59 @@ letter-spacing: 0.1px;
 
 color: #384F7D;
 }
+.threads{
+  padding:10px;
+  display: grid;
+  gap: 30px;
+  height: 400px;
+  overflow:scroll;
+  box-shadow: 3px 3px 10px rgba(4, 56, 107, 0.129);
+ 
+ 
+}
+
+.footer-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav li {
+  flex-grow: 1;
+}
+
+.footer-nav a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  color: var(--color-cta);
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.footer-nav a:hover {
+  color: #000;
+}
+
+.footer-nav i {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+/* .footer{
+  background: white;
+  padding: 5px;
+  border: solid red;
+} */
 
 
 

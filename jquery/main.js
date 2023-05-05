@@ -4,14 +4,14 @@ $(document).ready(function () {
  $('#btn-splash').click(function (e) { 
   e.preventDefault();
   $('#splash-screen').fadeOut(800);
-  window.location.replace("../login.html");
+  window.location.replace("../truth-main.html");
 
  });
 
  $('#login-btn').click(function (e) { 
   e.preventDefault();
   
-  window.location.replace("../truth-app.html");
+  window.location.replace("../truth-main.html");
  });
   
   
