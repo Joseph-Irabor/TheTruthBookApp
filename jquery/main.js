@@ -4,7 +4,7 @@ $(document).ready(function () {
  $('#btn-splash').click(function (e) { 
   e.preventDefault();
   $('#splash-screen').fadeOut(800);
-  window.location.replace("../truth-main.html");
+  window.location.replace("../login.html");
 
  });
 

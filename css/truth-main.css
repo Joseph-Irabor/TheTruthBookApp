@@ -2,8 +2,8 @@
 
 /* Mobile Phones */
 body{
-  display: grid;
-  overflow: hidden;
+  /* display: grid;
+  overflow: hidden; */
 }
 .header{
   width: 100%;
@@ -92,7 +92,7 @@ color: #384F7D;
   height: 400px;
   overflow:scroll;
   box-shadow: 3px 3px 10px rgba(4, 56, 107, 0.129);
- 
+  margin-bottom: 100px;
  
 }
 
@@ -151,6 +151,9 @@ color: #384F7D;
 .main-container{
     width: 50%;
     margin: auto;
+}
+body{
+  display: none;
 }
 }
 
