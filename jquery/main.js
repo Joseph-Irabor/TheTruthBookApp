@@ -15,13 +15,14 @@ $(document).ready(function () {
  });
   
 // TOGGEL MENU
+
 // $('#overlay').hide();
-$('#toggle-menu').click(function (e) { 
-  e.preventDefault();
-  $('#overlay').fadeOut(1000);
+// $('#toggle-menu').click(function (e) { 
+//   e.preventDefault();
+//   $('#overlay').fadeOut(1000);
   
   
-});
+// });
   
   // window.location.href = "../intro-page.html";
 });

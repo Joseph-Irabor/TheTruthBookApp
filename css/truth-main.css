@@ -7,6 +7,7 @@ body{
 }
 /* MENU OVERLAY */
 .overlay {
+  display: none;
   position: fixed;
   top: 40px;
   left: 0;
@@ -68,14 +69,15 @@ body{
   width: fit-content;
   display: grid;
   place-items: center;
-  border: solid red;
+ 
   margin: auto;
   
 }
 .header .header-img{
-  width: 200px;
+  width: 100px;
   padding: 0px;
-  border:solid #384F7D;
+  
+  
 }
 
 .motto{
