@@ -2,16 +2,80 @@
 
 /* Mobile Phones */
 body{
-  /* display: grid;
-  overflow: hidden; */
+  overflow: hidden;
+  
 }
-.header{
+/* MENU OVERLAY */
+.overlay {
+  position: fixed;
+  top: 40px;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background-color: rgba(0, 17, 255, 0.5);
+  z-index: 9999;
+  
+}
+.menu-header{
+  padding:10px;
+  height: inherit;
+}
+.user-profile{
+  margin-top: -3px;
+  font-size: 30px;
+  color: var(--color-cta);
+}
+.menu-icon {
+  float: left;
+  display: block;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-cta);
+  transition: transform 0.3s ease;
+}
+
+.menu-icon .bar:first-child {
+  transform: translateY(-6px);
+}
+
+.menu-icon .bar:last-child {
+  transform: translateY(6px);
+}
+
+.menu-icon.active .bar:first-child {
+  transform: translateY(0px) rotate(45deg);
+}
+
+.menu-icon.active .bar:last-child {
+  transform: translateY(0px) rotate(-45deg);
+}
+
+.menu-icon.active .bar:nth-child(2) {
+  transform: scaleX(0);
+}
+
+.header{
+  width: fit-content;
   display: grid;
   place-items: center;
+  border: solid red;
+  margin: auto;
+  
 }
 .header .header-img{
   width: 200px;
+  padding: 0px;
+  border:solid #384F7D;
 }
 
 .motto{
