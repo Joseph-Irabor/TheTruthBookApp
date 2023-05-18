@@ -1,5 +1,15 @@
 $(document).ready(function () {
+
+  // View more menu
+  $('#more-view-over').hide();
+  $('#t1').click(function () { 
+    $('#more-view-over').show();
+    
+  });
+
+  $('#t1').show();
  $('#intro-page, #slide-2, #slide-3').hide();
+
 
  $('#btn-splash').click(function (e) { 
   e.preventDefault();
