@@ -1,13 +1,18 @@
 $(document).ready(function () {
 
   // View more menu
-  $('#more-view-over').hide();
+  $('#more-view-overlay').hide();
   $('#t1').click(function () { 
-    $('#more-view-over').show();
+    $('#more-view-overlay').show();
+  });
+
+  $('#close-button').click(function () { 
+    $('#more-view-overlay').hide();
     
   });
 
-  $('#t1').show();
+
+
  $('#intro-page, #slide-2, #slide-3').hide();
 
 
