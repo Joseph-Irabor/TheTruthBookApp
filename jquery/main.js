@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   $('#close-button').click(function () { 
     $('#more-view-overlay').hide();
-    
+   
   });
 
 
