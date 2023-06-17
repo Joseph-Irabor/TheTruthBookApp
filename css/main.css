@@ -1,8 +1,7 @@
-@import url('/css/costom-properties.css');
+@import url('costom-properties.css');
 
 body{
-    background: var(--color-secondary);
-    
+    background: var(--color-secondary);   
     
 }
 

@@ -30,8 +30,8 @@
 
 
 <!-- my CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="icon"  href="/media/images/logo.jpg">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon"  href="./media/images/logo.jpg">
     
 <!-- ==================================== -->
     <title>Truth In Reality</title>
@@ -45,7 +45,7 @@
   <!-- Splash page -->
   <div class="splash-container" id="splash-screen">
    <div class="splash-motto">
-      <img src="/media/images/logo-transparent.png" alt="" class="splash-logo">
+      <img src="./media/images/logo-transparent.png" alt="" class="splash-logo">
       <em>Live Learn and share</em>
       <button class="btn-custom btn-splash" id="btn-splash" >  Enter Truth</button> 
     </div>

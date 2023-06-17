@@ -19,7 +19,25 @@ body{
 .view-overlay .contents-container{
   padding: 30px;
   background-color: white;
+  overflow: auto;
 }
+.view-overlay .card-text{
+ margin: auto;
+ text-align: justify;
+}
+
+.mini-cta{
+  margin: auto;
+  margin-top: 30px;
+  width: fit-content;
+  display: flex;
+  place-items: center;
+  gap: 30px;
+  cursor: pointer;
+  font-size: large;
+
+}
+
 
 .close-button {
   width: 40px;
@@ -211,7 +229,7 @@ color: #384F7D;
  
 }
 
-.cards i:hover{
+i:hover{
   cursor: pointer;
   color: var(--color-cta);
 }
