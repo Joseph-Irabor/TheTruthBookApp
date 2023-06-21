@@ -19,7 +19,7 @@ $(document).ready(function () {
  $('#btn-splash').click(function (e) { 
   e.preventDefault();
   $('#splash-screen').fadeOut(800);
-  window.location.replace("../login.html");
+  window.location.href="login.php";
 
  });
 

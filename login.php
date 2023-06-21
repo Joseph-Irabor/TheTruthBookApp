@@ -1,3 +1,8 @@
+<?php
+
+include('./resources/login-reg.php')
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,12 +48,12 @@
 
   <div class="login-container center-container">
     <!-- Login form -->
-    <form action="" class="login-form forms">
+    <form action="" method="POST" class="login-form forms">
       <h2 >LOGIN</h2>
       <label for="username">Username</label>
       <input type="text" name="username" id="username" placeholder="enter username" disabled>   
       <label for="password">Password</label> 
-      <input type="password" name="username" id="password" placeholder="********" maxlength="8" disabled> 
+      <input type="password" name="password" id="password" placeholder="********" maxlength="8" disabled> 
       
       <div class="btn-container"> 
         <button class="btn-custom login" id="login-btn" >Login</button>
@@ -60,13 +65,13 @@
       </div>
     </form>
 
-    <!-- register form -->
-    <form action="" class="registration-form forms" id="registration-form">
+    <!-- registration form -->
+    <form action="" method="POST" class="registration-form forms" id="registration-form">
       <h2> CREATE ACCOUNT</h2>
       <label for="register-username">Username</label>
       <input type="text" name="register-username" id="register-username" placeholder="choose a username">   
       <label for="password">Password</label> 
-      <input type="password" name="register-username" id="register-password" placeholder="********" maxlength="8"> 
+      <input type="password" name="register-password" id="register-password" placeholder="********" maxlength="8"> 
       <label for="confirm-password">Confirm password</label> 
       <input type="password" name="confirm-password" id="confirm-password" placeholder="********" maxlength="8"> 
       

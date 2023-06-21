@@ -51,6 +51,10 @@
     --brd-rad:6px;
     --bx-shw:0px 0px 10px grey
 }
+
+.no-link{
+    text-decoration: none;
+    }
 .btn-custom{
    
     padding:10px;

@@ -1,3 +1,8 @@
+<?php
+  include('./resources/knt.php')
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +52,9 @@
    <div class="splash-motto">
       <img src="./media/images/logo-transparent.png" alt="" class="splash-logo">
       <em>Live Learn and share</em>
-      <button class="btn-custom btn-splash" id="btn-splash" >  Enter Truth</button> 
+      
+         <button class="btn-custom btn-splash" id="btn-splash" >  Enter Truth</button> 
+      
     </div>
       
   </div>
