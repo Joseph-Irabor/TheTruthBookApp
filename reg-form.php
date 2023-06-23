@@ -1,6 +1,5 @@
-<?php
-
-include('./resources/login-reg.php')
+<?php 
+include('./resources/reg.php');
 ?>
 
 <!DOCTYPE html>
@@ -47,26 +46,10 @@ include('./resources/login-reg.php')
 <body>
 
   <div class="login-container center-container">
-    <!-- Login form -->
-    <form action="" method="POST" class="login-form forms">
-      <h2 >LOGIN</h2>
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username" placeholder="enter username" disabled>   
-      <label for="password">Password</label> 
-      <input type="password" name="password" id="password" placeholder="********" maxlength="8" disabled> 
-      
-      <div class="btn-container"> 
-        <button class="btn-custom login" id="login-btn" >Login</button>
-        <button class="btn-custom cancel" >Cancel</button>
-      </div>
-      <div class="register-forgot-links">
-        <span class="register-link" id="register-link"><a href="">Register</a></span>
-        <span class="forgot-password-link" ><a href="">Forgot password?</a></span>
-      </div>
-    </form>
 
     <!-- registration form -->
-    <form action="" method="POST" class="registration-form forms" id="registration-form">
+
+      <form action="" method="POST" class="registration-form forms" id="registration-form">
       <h2> CREATE ACCOUNT</h2>
       <label for="register-username">Username</label>
       <input type="text" name="register-username" id="register-username" placeholder="choose a username">   
