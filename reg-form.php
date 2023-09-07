@@ -52,7 +52,7 @@ include('./resources/reg.php');
       <form action="" method="POST" class="registration-form forms" id="registration-form">
       <h2> CREATE ACCOUNT</h2>
       <label for="register-username">Username</label>
-      <input type="text" name="register-username" id="register-username" placeholder="choose a username">   
+      <input type="email" name="register-username" id="register-username" placeholder="Email">   
       <label for="password">Password</label> 
       <input type="password" name="register-password" id="register-password" placeholder="********" maxlength="8"> 
       <label for="confirm-password">Confirm password</label> 

@@ -1,5 +1,62 @@
 <?php
- include('./resources/login.php');
+
+session_start();
+	
+  $_SESSION;
+
+
+  include("./resources/connection.php");
+include("./resources/functions.php");
+
+
+
+try{
+    
+    if($_SERVER['REQUEST_METHOD']==="POST")
+    {
+        
+        $username =  $_POST['username'];
+        $loginPassword =  $_POST['password'];
+
+        // $hashedLoginPassword = password_hash($loginPassword, PASSWORD_DEFAULT);
+       
+
+            $querySelectFromTable ="SELECT * FROM users WHERE user_name = '$username' ";
+            
+            $result = mysqli_query($conn, $querySelectFromTable);
+
+            if($result )
+            {
+                if($result && mysqli_num_rows($result) > 0)
+                {
+
+                    $user_info = mysqli_fetch_assoc($result);
+
+                    if($user_info['user_password']=== $loginPassword)
+
+                    {
+                        echo 'CORRECT CREDENTIALS';
+                      $_SESSION['user_name'] = $user_info['user_name'];
+                        header("location: main");
+                        die; 
+                        
+                    }
+                }
+            }
+              echo "Wrong user credentials";
+            
+       
+    }
+   
+}
+
+catch(Exception $ex){
+        
+    echo 'FATAL ERRO' .$ex;
+
+}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +109,7 @@
     <form action="" method="POST" class="login-form forms">
       <h2 >LOGIN</h2>
       <label for="username">Username</label>
-      <input type="text" name="username" id="username" placeholder="enter username" >   
+      <input type="email" name="username" id="username" placeholder="enter username" >   
       <label for="password">Password</label> 
       <input type="password" name="password" id="password" placeholder="********" maxlength="8" > 
       
@@ -61,7 +118,7 @@
         <button class="btn-custom cancel" >Cancel</button>
       </div>
       <div class="register-forgot-links">
-        <span class="register-link" id="register-link"><a href="">Register</a></span>
+        <span class="register-link" id="register-link"><a href="reg-form">Register</a></span>
         <span class="forgot-password-link" ><a href="">Forgot password?</a></span>
       </div>
     </form>

@@ -1,15 +1,15 @@
 <?php
  
-function check_login($con)
+function check_login($conn)
 {
     // session here check admin_username field in db
     if(isset ($_SESSION['user_name']))
     {
 
-        $adminUsername = $_SESSION['user_name'];
-        $query ="SELECT * FROM users WHERE user_name = '$adminUsername' limit 1";
+        $sessionUsername = $_SESSION['user_name'];
+        $query ="SELECT * FROM users WHERE user_name = '$sessionUsername' limit 1";
 
-        $result = mysqli_query($con,$query); 
+        $result = mysqli_query($conn,$query); 
         if($result && mysqli_num_rows($result) > 0)
         {
 
@@ -19,7 +19,7 @@ function check_login($con)
     }
 
     // redirect to login
-    header("location: login-form");
+    header("location:login-form");
     die;
 }
 

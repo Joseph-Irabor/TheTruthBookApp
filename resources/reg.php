@@ -1,7 +1,7 @@
 <?php 
 // session_start();
 
-include('knt.php');
+include('connection.php');
 
 
 // Get user input from the registration form
@@ -18,7 +18,7 @@ try{
 
     // Hash the password for security
 
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+    // $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
     if (empty($username))
           {
@@ -27,16 +27,18 @@ try{
     if($password != $confirmPassword )
     {
         echo 'PASSWORD DO NOT MATCH';
+        die;
     }
 
     $querySelectUsers ="SELECT * FROM users";
 
-         $queryInsertToUsers= "INSERT INTO users (user_name, user_password) VALUES('$username','$hashedPassword')";
+         $queryInsertToUsers= "INSERT INTO users (user_name, user_password) VALUES('$username','$password')";
 
             mysqli_query($conn,$querySelectUsers);
             mysqli_query($conn,$queryInsertToUsers);
         
             echo 'NEW USER HAS BEEN REGISTERED';
+            header("location: login-form");
 }
 
 
