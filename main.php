@@ -55,7 +55,7 @@ $user_info = check_login($conn);
 
 <body >
 
-<section class="user-data">
+<section style="text-align: center;" class="user-data">
 <?php 
     $user =  $user_info['user_name']; 
 ?>
