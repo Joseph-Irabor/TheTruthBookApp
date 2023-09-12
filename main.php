@@ -59,7 +59,7 @@ $user_info = check_login($conn);
 <?php 
     $user =  $user_info['user_name']; 
 ?>
-<span id="user-type">  <?php echo $user; ?></span>
+<span id="user-type"> <span>Welcome</span> <?php echo $user; ?> <em></em></span>
 </section>
 <!-- 
     <div class="view-overlay" id="more-view-overlay">
